@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol.top{
+    position: sticky;
+    top:0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 19px;
+    background-color: rgb(24,24,24);
+    color: white;
+    height: 45px;
+    width: 100%;
+}
+img.img{
+    padding-top: 5px;
+}
+
+button.button{
+    width: 100px;
+    height: 45px;
+    background-color: #0071E3;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    
+}
+button.button2{
+    width: 70px;
+    height: 45px;
+    border-color: #0071E3;
+    color: #0071E3;
+    background-color: transparent;
+    border-radius: 30px;
+
+}
+div.btn{
+    display: flex;
+    gap: 15px;
+    padding-left: 30px;
+}
+span.txt{
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: white;
+}
+span.text{
+    color: white;
+
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding-left: 14px;
+    
+}
+div.imgtxt{
+    position: absolute;
+    left:510px;
+    /* left: 100px; */
+    top: 130px;
+}
+div.line2{
+    position: absolute;
+    left: 510px;
+    top: 700px;
+}
+button.button22{
+    width: 100px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    
+}
+button.button22b{
+    width: 70px;
+    height: 45px;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    border-radius: 30px;
+
+}
+div.btn2{
+    display: flex;
+    gap: 15px;
+    padding-left: 30px;
+}
+span.txt2{
+    font-size: 45px;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: white;
+    padding-left: 29px;
+}
+span.text2{
+    color: white;
+    
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding-right: 16px;
+    
+}
+h1.picturetext3a
+{
+    font-family:  'San Francisco', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 80px;
+
+}
+h2.picturetext3b{
+    font-size: 30px;
+    /* padding-left: 0px; */
+    /* padding-right: 300px; */
+    padding-inline-start: -40px;
+    padding-inline-end: 50px;
+    font-weight: normal;
+    font-family:  'San Francisco', 'Helvetica Neue', Arial, sans-serif;
+
+}
+button.picturebtn3{
+    border-radius: 30px;
+    width: 110px;
+    height: 45px;
+    background-color: #0071E3;
+    color: white;
+    border: none;
+    
+    
+}
+div.btn3{
+    padding-left: 140px;
+}
+div.picture3{
+    position: absolute;
+    left: 450px;
+    top: 1700px;
+    
+}
+span.textadd{
+    padding: auto;
+}
+/* picture4 */
+button.picturebtn4{
+    width: 85px;
+    height: 30px;
+    background-color: #0071E3;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    
+}
+button.picturebtn4b
+{    width: 60px;
+    height: 30px;
+    border-color: #0071E3;
+    color: #0071E3;
+    background-color: transparent;
+    border-radius: 30px;
+
+
+}
+div.picture4button{
+    padding-left:60px ;
+    display: flex;
+    gap: 12px;
+}
+span.air{
+    font-family: 'Pacifico', cursive;
+    color: #0071E3;
+}
+h2.picturetext4a{
+    font-family:  'San Francisco', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 30px;
+    padding-left: 80px;
+}
+h3.picturetext4b{
+    font-size: 15px;
+    font-weight: normal;
+    font-family:  'San Francisco', 'Helvetica Neue', Arial, sans-serif;
+    padding-left: 30px;
+}
+div.picture4{
+    position: absolute;
+    left: 170px;
+    top: 2080px;
+}
+h1.picturetext5a{
+    font-family:  'San Francisco', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 33px;
+    padding-left: 60px;
+    color: white;
+}
+h2.picturetext5b{
+    font-family:  'San Francisco', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 45px;
+    color: white;
+}
+h2.picturetext5c{
+    font-family:  'San Francisco', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    padding-left: 0px;
+    color: white;
+}
+div.picturemerge{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Ensures the content aligns properly */
+    height: auto; /* Automatically adjust based on content */
+    gap: 8px;
+    padding-left: 17px ;
+}
+img.pi4{
+    padding-left: 90px;
+}
+
+div.picture4m{
+    position: absolute;
+    left: 800px;
+    top: 2350px;
+}
+button.picturebtn5a{
+    width: 85px;
+    height: 30px;
+    background-color: #0071E3;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+button.picturebtn5b{
+    width: 60px;
+    height: 30px;
+    border-color: #0071E3;
+    color: #0071E3;
+    background-color: transparent;
+    border-radius: 30px;    
+}
+h3.picture5txt{
+    font-weight: normal;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+button.picturebtn6a{
+    width: 85px;
+    height: 30px;
+    background-color: #0071E3;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+button.picturebtn6b{
+    width: 60px;
+    height: 30px;
+    border-color: #0071E3;
+    color: #0071E3;
+    background-color: transparent;
+    border-radius: 30px;  
+}
+h3.picturetxt6{
+    font-weight: normal;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+div.d5{
+    padding-left: 22px;
+}
+div.d5b{
+    padding-left: 17px;
+    display: flex;
+    gap: 10px;
+    /* padding-left: 30px; */
+}
+div.d5bb{
+    padding-left: 27px;
+    display: flex;
+    gap: 10px;
+}
+div.d6{
+    padding-left: 22px;
+}
+div.picturemerge2{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1;
+    padding-left: 50px;   
+    padding-left: 10px;
+    /* max-width: fit-content; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: flex-start; Ensures the content aligns properly */
+    /* height: auto; Automatically adjust based on content */
+    /* gap: 8px; */
+    /* padding-left: 17px ; */
+}
+/* img.picturemerge2picture2{
+    
+} */
+div.picturemerge22{
+    padding-right: 15px;
+}
+div.picturemerge21{
+    padding-left: 6px;
+    /* flex-shrink: 0;
+    flex-wrap: wrap;
+    max-width: 100%; */
+}
+div.picture5p{
+    position: absolute;
+    top: 2580px;
+    left: 200px;
+}
+div.picture5p2{
+    position: absolute;
+    top: 2580px;
+    right: 225px;   
+}
+div.picturebtn66{
+    padding-left: 93px;
+}
+button.picturebtn7a{
+ border-radius: 35px;
+ width: 125px;
+ height: 33px;
+ border:none  ;
+ color: white;
+ background-color: #0071E3;
+
+}
+img.picture7img{
+    padding-left: 90px;
+}
+h2.picturetxt7a{
+    padding-left: 18px;
+    font-weight: normal;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+
+
+}
+h2.picturetxt7b{
+    padding-left: 42px;
+    font-weight: normal;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+
+
+}
+button.picturebtn8a{
+    border-radius: 35px;
+    width: 100px;
+    height: 33px;
+    border:none  ;
+    color: white;
+    background-color: #0071E3;
+}
+button.picturebtn8b{
+    border-radius: 35px;
+    width: 100px;
+    height: 33px;
+    /* border: none; */
+    background-color: transparent;
+    border-color: #0071E3;
+    color: #0071E3;
+}
+img.picture8a{
+    padding-left: 115px;
+}
+h2.picturetxt8a{
+    font-weight: normal;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding-left: 42px;
+    
+    
+}
+h2.picturetxt8b{
+    font-weight: normal;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding-left: 82px;
+
+}
+div.picturebtn8{
+    padding-left: 65px;
+    display: flex;
+    gap:12px;
+
+}
+div.merge3{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 0px;
+    padding-left: 50px;   
+    padding-left: 10px;
+}
+div.merge3picture2{
+    padding-right: 10px;
+}
+div.picture7p{
+    position: absolute;
+    left: 160px;
+    top: 3070px;
+}
+div.picture8p{
+    position: absolute;
+    top: 3068px;
+    right: 170px;
+}
+button.picture10btn{
+    border-radius: 35px;
+    width: 170px;
+    height: 42px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+h2.picture10txt{
+    font-weight: normal;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+div.picture10bph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+
+}
+div.txtmerge{
+    position: absolute;
+    top: 4090px;
+    left: 75px;
+   
+}
+div.picture10{
+    padding-left: 14px;
+}
+div.picturesmerge{
+    display: flex;
+    justify-content: space-evenly;
+}
+div.a11a{
+    position: absolute;
+    top: 4453px;
+    left: 12px;
+}
+
+div.orderlist{
+    font-family: "San Francisco", "Helvetica Neue", Arial, sans-serif;
+    color: #1d1d1f; /* A common dark gray color used by Apple */
+    font-size: 13px;
+    /* font-size: 14px;  */
+    padding-left: 90px;
+    list-style: none;
+}
+.orderlist1{
+    list-style: none;
+}
+span.bold{
+    font-weight: bold;
+    color: black;
+}
+ol.text{
+    font-family: "San Francisco", "Helvetica Neue", Arial, sans-serif;
+    color: rgb(104, 104, 104); /* A common dark gray color used by Apple */
+    font-size: 13px;
+    list-style: none;
+    /* display: flex; */
+
+
+}
+div.listmerge{
+    display: flex;
+    justify-content: space-evenly;
+   
+    row-gap: 50px;
+    
+}
+
+br.smallbreak{
+    line-height: 1.5px;
+    margin: 0;
+    padding: 0;
+}
+
+h3.lasttxt{
+    color: rgb(104, 104, 104); /* A common dark gray color used by Apple */
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 92px;
+}
+div.hr{
+    max-width: 1150px;
+    padding-left: 85px;
+}
+div.backgroundcolor{
+    background-color: rgb(245,245,247);
+}
